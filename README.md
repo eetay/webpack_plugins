@@ -1,9 +1,4 @@
 <html>
-<head>
-  <title>
-    List Unused Files Plugin
-  </title>
-</head>
   <body>
     <h1>List Unused Files Plugin</h1>
     <div>
