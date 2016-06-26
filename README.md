@@ -1,6 +1,6 @@
 <html>
   <body>
-    <h1>List Unused Files Plugin</h1>
+    <h1><img src="https://eetay.github.io/webpack_plugins/images/clean.gif">List Unused Files Plugin</h1>
     <div>
       This webpack plugin compares the list of compiled js/jsx files with the list of js/jsx files on disk, and lets you know which files are not used at all, so you can clean them up
     </div>
