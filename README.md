@@ -15,12 +15,10 @@
     <li>Edit your webpack config file like so:
       <div class="highlight highlight-source-js" style="background-color:lightgrey;">
         <pre>
-          import ListUnusedFilesPlugin from './ListUnusedFilesPlugin'
-        </pre>
-      </div>
-      (change the path to where the ListUnusedFilesPlugin.js is) and then:
-      <div class="highlight highlight-source-js" style="background-color:lightgrey;">
-        <pre>
+          import ListUnusedFilesPlugin from './path/to/ListUnusedFilesPlugin.js'
+          .
+          .
+          .
           webpackConfig.plugins.push(
             new ListUnusedFilesPlugin()
           )
