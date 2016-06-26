@@ -17,6 +17,10 @@
       <div class="highlight highlight-source-js" style="background-color:lightgrey;">
         <pre>
           import ListUnusedFilesPlugin from 'path/to/ListUnusedFilesPlugin.js'
+        </pre>
+      </div>
+      <div class="highlight highlight-source-js" style="background-color:lightgrey;">
+        <pre>
           webpackConfig.plugins.push(
             new ListUnusedFilesPlugin()
           )
