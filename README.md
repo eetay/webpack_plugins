@@ -12,20 +12,18 @@
     <h1>Installation</h1>
     <ul>
     <li>Download the source file</li>
-    <li>Edit your webpack config file like so:
+    <li>Edit your webpack config file like so: </li>
+    </ul>
       <div class="highlight highlight-source-js" style="background-color:lightgrey;">
         <pre>
-          import ListUnusedFilesPlugin from './path/to/ListUnusedFilesPlugin.js'
-          
-          
-          
+          import ListUnusedFilesPlugin from 'path/to/ListUnusedFilesPlugin.js'
+
+
           webpackConfig.plugins.push(
             new ListUnusedFilesPlugin()
           )
         </pre>
       </div>
-    </li>
-    </ul>
     <h1>Usage:</h1>
     <div class="highlight highlight-source-js">
       <pre>
