@@ -27,6 +27,13 @@
         </pre>
       </div>
     </li>
+    </ul>
+    <h1>Usage:</h1>
+    <div class="highlight highlight-source-js">
+      <pre>
+        $ npm run compile
+      </pre>
+    </div>
   </body>
 </html>
 
